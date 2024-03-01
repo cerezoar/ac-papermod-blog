@@ -1,0 +1,33 @@
+baseURL: ""
+languageCode: en-us
+title: Aldrin Cerezo
+theme: PaperMod
+
+params:
+  homeInfoParams:
+    Title: "Hi, there!"
+    Content: Welcome to my blog.
+  socialIcons:
+    - name: github
+      url: "https://github.com/"
+    - name: facebook
+      url: "https://facebook.com/"
+  ShowBreadCrumbs: true
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+
+menu:
+  main:
+    - identifyer: categories
+      name: Categories #name of the link
+      url: /categories/
+      weight: 20
+    - identifyer: tags
+      name: Tags #name of the link
+      url: /tags/
+      weight: 10
+    - identifyer: archives
+      name: Archives #name of the link
+      url: /archives/
+      weight: 1
