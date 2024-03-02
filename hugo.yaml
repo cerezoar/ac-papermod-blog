@@ -14,7 +14,7 @@ params:
       url: "https://facebook.com/"
   ShowBreadCrumbs: true
   ShowReadingTime: true
-  ShowShareButtons: true
+  # ShowShareButtons: true
   ShowPostNavLinks: true
 
 menu:
@@ -22,12 +22,12 @@ menu:
     - identifyer: categories
       name: Categories #name of the link
       url: /categories/
-      weight: 20
+      weight: 30
     - identifyer: tags
       name: Tags #name of the link
       url: /tags/
-      weight: 10
+      weight: 20
     - identifyer: archives
       name: Archives #name of the link
       url: /archives/
-      weight: 1
+      weight: 10
