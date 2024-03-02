@@ -7,3 +7,4 @@ categories = ["cat1"]
 +++
 
 This is the A markdown file.
+![image](/images/image.png)
