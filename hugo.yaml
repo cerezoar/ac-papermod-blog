@@ -9,7 +9,9 @@ params:
     Content: Welcome to my blog.
   socialIcons:
     - name: github
-      url: "https://github.com/"
+      url: "https://github.com/cerezoar"
+    - name: linkedin
+      url: "https://linkedin.com/in/aldrincerezo"
     - name: facebook
       url: "https://facebook.com/"
   ShowBreadCrumbs: true
